@@ -23,11 +23,11 @@
                 </div>
             @endforeach
         </div>
-        <div class="footer">
-            <a href="/">戻る</a>
-        </div>
         <div class='paginate'>
             {{ $posts->links() }}
+        </div>
+        <div class="footer">
+            <a href="/">戻る</a>
         </div>
         
         <script>
